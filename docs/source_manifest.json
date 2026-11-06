@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "name": "NTC_Consumer_Credit.ipynb",
+      "sha256": "d1354fc481eac9e599e72e1fcab53034f90b911d760e7dec846d6c189472f797"
+    },
+    {
+      "name": "Final Project Report.pdf",
+      "sha256": "8eec4cce61e5a6756aaa1aa13bbd4ee73a3c715c98b012b53c844b2b06ef9270"
+    },
+    {
+      "name": "Poster 300.pdf",
+      "sha256": "7c3f0ebdb16fa8145f0600cffc2f2f0b64d22f71fac614e3eafe4896b987fd8e"
+    },
+    {
+      "name": "Data 300 Presentation Slide.pptx",
+      "sha256": "d946fbae73b6910c801276ae1aea73e5a3190bc10615d0ae1b23131db62c15f3"
+    },
+    {
+      "name": "Script Data 300.docx",
+      "sha256": "7389a34b33c78d7ed750bc00d5268e1518e8431c062c053f3493d4da0162cdd6"
+    },
+    {
+      "name": "NTC.twb",
+      "sha256": "881723c0d9c34754e35e794ebb4d998f5250fe208782118d15c6ea6e677c9fb9"
+    }
+  ],
+  "original_authors": [
+    "Chloe Pham",
+    "Grace Ngo"
+  ],
+  "publication": "Reviewed original-data reproduction, executed notebook, aggregate reports and portable Tableau template. Original authorship retained.",
+  "upstream_repository": "https://github.com/chloephammi/New-To-Credit-Consumer",
+  "upstream_commit": "8b55c183e045e80b87ffb9e5efd0a1268443b7e4",
+  "original_dataset": {
+    "path": "data/source/v_credit_data_NTC_v51825.csv",
+    "upstream_path": "v_credit_data_NTC_v51825.csv",
+    "git_blob_sha": "f615dd215a5ade27450279a8220598b126cc6e36",
+    "sha256": "8807ab09fdf399d825e92a56633515f86a33f14725c543f6304c32bbbd5ef33b",
+    "bytes": 180270,
+    "rows": 2000,
+    "columns": 27
+  }
+}

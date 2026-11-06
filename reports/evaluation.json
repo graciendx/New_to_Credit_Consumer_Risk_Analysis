@@ -1,0 +1,135 @@
+{
+  "dataset_kind": "coursework",
+  "status": "Reproduced retrospective evaluation on the original project dataset.",
+  "config": {
+    "seed": 42,
+    "minimum_recall": 0.5,
+    "minimum_flags": 10,
+    "thresholds": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ]
+  },
+  "n_rows": 2000,
+  "splits": {
+    "train": 1400,
+    "validation": 300,
+    "test": 300
+  },
+  "features": [
+    "No_Hit",
+    "Ever_Bankruptcy",
+    "Months_Since_Bankruptcy",
+    "Ever_Collection",
+    "Unpaid_Collection_Trades",
+    "Unpaid_Collection_Balance",
+    "Counseling_Last_12M",
+    "Delinq_90D_12M",
+    "Delinq_60D_12M",
+    "Delinq_60D_Curr",
+    "Delinq_30D_3M",
+    "Delinq_30D_Curr",
+    "Checking_Asset",
+    "Card_Inquiry_12M",
+    "Card_Open_24M",
+    "Personal_Loan",
+    "Unsecured_Debt",
+    "Revolving_Util",
+    "Income",
+    "Auth_User_Only",
+    "Student",
+    "Student_Loan_Amt",
+    "FICO_V",
+    "FICO_Missing",
+    "Unsecured_Debt_to_Annual_Income"
+  ],
+  "excluded_outcome_or_review_fields": [
+    "ChargeOff_Balance",
+    "Unpaid_CO_84M",
+    "Age"
+  ],
+  "selected_model": "xgboost",
+  "selection_metric": "validation average precision",
+  "selected_threshold": 0.35,
+  "selected_model_test": {
+    "threshold": 0.35,
+    "n": 300,
+    "prevalence": 0.14,
+    "roc_auc": 0.9168512366186785,
+    "average_precision": 0.5631918865737344,
+    "brier_score": 0.10121276508065101,
+    "accuracy": 0.8366666666666667,
+    "precision": 0.4533333333333333,
+    "recall": 0.8095238095238095,
+    "flag_rate": 0.25,
+    "tn": 217,
+    "fp": 41,
+    "fn": 8,
+    "tp": 34
+  },
+  "dummy_prior_test_at_0_50": {
+    "threshold": 0.5,
+    "n": 300,
+    "prevalence": 0.14,
+    "roc_auc": 0.5,
+    "average_precision": 0.14,
+    "brier_score": 0.12040204081632652,
+    "accuracy": 0.86,
+    "precision": 0.0,
+    "recall": 0.0,
+    "flag_rate": 0.0,
+    "tn": 258,
+    "fp": 0,
+    "fn": 42,
+    "tp": 0
+  },
+  "data_fingerprint_sha256": "31bfcf5c5b9cc361614f02d35a2f116548c411d4c7bc91e26b2160c9e953ae6f",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "xgboost": "3.0.5"
+  },
+  "limitations": [
+    "Ever_ChargeOff is a historical-status label; no prospective performance horizon is established.",
+    "Feature timestamps and a data-generation specification are unavailable for the original project.",
+    "Scores are uncalibrated. Brier loss is a diagnostic, not proof of calibration.",
+    "No approval policy, expected loss, fairness certification or production suitability is inferred."
+  ],
+  "source_file_sha256": "8807ab09fdf399d825e92a56633515f86a33f14725c543f6304c32bbbd5ef33b",
+  "split_class_counts": {
+    "train": {
+      "n": 1400,
+      "positive": 198,
+      "negative": 1202
+    },
+    "validation": {
+      "n": 300,
+      "positive": 43,
+      "negative": 257
+    },
+    "test": {
+      "n": 300,
+      "positive": 42,
+      "negative": 258
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "status": "Saved original notebook outputs; not rerun or endorsed as unbiased performance.",
+  "limitations": [
+    "Outcome-related features retained by the original feature selection.",
+    "Pre-split outlier removal; unstratified original splits.",
+    "Random Forest test threshold differs from validation.",
+    "AUC is copied from saved text; confusion-matrix metrics are recalculated from counts."
+  ],
+  "records": [
+    {
+      "model": "random_forest",
+      "split": "validation",
+      "threshold": 0.7,
+      "tn": 212,
+      "fp": 9,
+      "fn": 12,
+      "tp": 18,
+      "n": 251,
+      "precision": 0.6666666666666666,
+      "recall": 0.6,
+      "accuracy": 0.9163346613545816,
+      "roc_auc_reported": 0.953
+    },
+    {
+      "model": "random_forest",
+      "split": "test",
+      "threshold": 0.5,
+      "tn": 190,
+      "fp": 29,
+      "fn": 0,
+      "tp": 33,
+      "n": 252,
+      "precision": 0.532258064516129,
+      "recall": 1.0,
+      "accuracy": 0.8849206349206349,
+      "roc_auc_reported": 0.943
+    },
+    {
+      "model": "xgboost",
+      "split": "validation",
+      "threshold": 0.7,
+      "tn": 206,
+      "fp": 15,
+      "fn": 12,
+      "tp": 18,
+      "n": 251,
+      "precision": 0.5454545454545454,
+      "recall": 0.6,
+      "accuracy": 0.8924302788844621,
+      "roc_auc_reported": 0.944
+    },
+    {
+      "model": "xgboost",
+      "split": "test",
+      "threshold": 0.7,
+      "tn": 205,
+      "fp": 14,
+      "fn": 13,
+      "tp": 20,
+      "n": 252,
+      "precision": 0.5882352941176471,
+      "recall": 0.6060606060606061,
+      "accuracy": 0.8928571428571429,
+      "roc_auc_reported": 0.935
+    }
+  ]
+}

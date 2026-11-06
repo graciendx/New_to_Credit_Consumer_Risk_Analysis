@@ -1,0 +1,9 @@
+{
+  "n_rows": 2000,
+  "n_columns": 27,
+  "positive_outcomes": 283,
+  "observed_chargeoff_share": 0.1415,
+  "missing_fico_count": 830,
+  "missing_fico_share": 0.415,
+  "duplicate_full_rows": 0
+}

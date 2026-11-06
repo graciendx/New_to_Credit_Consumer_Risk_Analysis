@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntc-credit-risk-analysis"
+version = "1.1.0"
+description = "Reproducible consumer credit-risk research with original data, model evaluation and decision diagnostics"
+requires-python = ">=3.12"
+authors = [{name = "Grace Ngo"}, {name = "Chloe Pham"}]
+dependencies = ["numpy>=2.0,<3", "pandas>=2.2,<3", "scikit-learn>=1.6,<2", "xgboost>=3.0,<4", "matplotlib>=3.10,<4"]
+
+[project.optional-dependencies]
+notebook = ["nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6.30,<7"]
+
+[project.scripts]
+ntc-risk = "ntc_risk.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["ntc_risk*"]
