@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <workbook original-version="18.1" source-build="2024.1.5 (20241.24.0705.0334)" source-platform="mac" version="18.1">
   <document-format-change-manifest>
-    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
-    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
-    <AutoCreateAndUpdateDSDPhoneLayouts />
-    <_.fcp.MarkAnimation.true...MarkAnimation />
-    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
-    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
-    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
-    <SetMembershipControl />
-    <SheetIdentifierTracking />
-    <SortTagCleanup />
-    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder/>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault/>
+    <AutoCreateAndUpdateDSDPhoneLayouts/>
+    <_.fcp.MarkAnimation.true...MarkAnimation/>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy/>
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType/>
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel/>
+    <SetMembershipControl/>
+    <SheetIdentifierTracking/>
+    <SortTagCleanup/>
+    <WindowsPersistSimpleIdentifiers/>
   </document-format-change-manifest>
   <preferences>
-    <preference name="ui.encoding.shelf.height" value="24" />
-    <preference name="ui.shelf.height" value="26" />
+    <preference name="ui.encoding.shelf.height" value="24"/>
+    <preference name="ui.shelf.height" value="26"/>
   </preferences>
   <_.fcp.AnimationOnByDefault.false...style>
     <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element="animation">
-      <_.fcp.AnimationOnByDefault.false...format attr="animation-on" value="ao-on" />
+      <_.fcp.AnimationOnByDefault.false...format attr="animation-on" value="ao-on"/>
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
@@ -27,97 +27,97 @@
       <connection class="federated">
         <named-connections>
           <named-connection caption="NTC_Consumer_Credit_Data" name="textscan.16cxogj03mzun719d1ula168m6bn">
-            <connection class="textscan" directory="../data" filename="tableau_input.csv" password="" server="" />
+            <connection class="textscan" directory="../data" filename="tableau_input.csv" password="" server=""/>
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection="textscan.16cxogj03mzun719d1ula168m6bn" name="tableau_input.csv" table="[tableau_input#csv]" type="table">
           <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
-            <column datatype="integer" name="No_Hit" ordinal="0" />
-            <column datatype="integer" name="Age" ordinal="1" />
-            <column datatype="integer" name="Ever_Bankruptcy" ordinal="2" />
-            <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3" />
-            <column datatype="integer" name="Ever_Collection" ordinal="4" />
-            <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5" />
-            <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6" />
-            <column datatype="integer" name="Counseling_Last_12M" ordinal="7" />
-            <column datatype="integer" name="Unpaid_CO_84M" ordinal="8" />
-            <column datatype="integer" name="Delinq_90D_12M" ordinal="9" />
-            <column datatype="integer" name="Delinq_60D_12M" ordinal="10" />
-            <column datatype="integer" name="Delinq_60D_Curr" ordinal="11" />
-            <column datatype="integer" name="Delinq_30D_3M" ordinal="12" />
-            <column datatype="integer" name="Delinq_30D_Curr" ordinal="13" />
-            <column datatype="integer" name="Checking_Asset" ordinal="14" />
-            <column datatype="integer" name="Card_Inquiry_12M" ordinal="15" />
-            <column datatype="real" name="Card_Open_24M" ordinal="16" />
-            <column datatype="integer" name="Personal_Loan" ordinal="17" />
-            <column datatype="real" name="Unsecured_Debt" ordinal="18" />
-            <column datatype="real" name="Revolving_Util" ordinal="19" />
-            <column datatype="integer" name="Income" ordinal="20" />
-            <column datatype="integer" name="Auth_User_Only" ordinal="21" />
-            <column datatype="integer" name="Student" ordinal="22" />
-            <column datatype="real" name="Student_Loan_Amt" ordinal="23" />
-            <column datatype="integer" name="Ever_ChargeOff" ordinal="24" />
-            <column datatype="real" name="ChargeOff_Balance" ordinal="25" />
-            <column datatype="real" name="FICO_V" ordinal="26" />
-            <column datatype="real" name="DTI" ordinal="27" />
-            <column datatype="integer" name="Accounts" ordinal="28" />
-            <column datatype="string" name="FICO" ordinal="29" />
-            <column datatype="string" name="FICO_Band" ordinal="30" />
-            <column datatype="string" name="Utilization_Band" ordinal="31" />
-            <column datatype="string" name="DTI_Band" ordinal="32" />
-            <column datatype="string" name="DTI_Band_10pct" ordinal="33" />
-            <column datatype="string" name="LoanAmount_Band" ordinal="34" />
-            <column datatype="string" name="Asset_Band" ordinal="35" />
-            <column datatype="integer" name="Observed_Chargeoff" ordinal="36" />
+            <column datatype="integer" name="No_Hit" ordinal="0"/>
+            <column datatype="integer" name="Age" ordinal="1"/>
+            <column datatype="integer" name="Ever_Bankruptcy" ordinal="2"/>
+            <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3"/>
+            <column datatype="integer" name="Ever_Collection" ordinal="4"/>
+            <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5"/>
+            <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6"/>
+            <column datatype="integer" name="Counseling_Last_12M" ordinal="7"/>
+            <column datatype="integer" name="Unpaid_CO_84M" ordinal="8"/>
+            <column datatype="integer" name="Delinq_90D_12M" ordinal="9"/>
+            <column datatype="integer" name="Delinq_60D_12M" ordinal="10"/>
+            <column datatype="integer" name="Delinq_60D_Curr" ordinal="11"/>
+            <column datatype="integer" name="Delinq_30D_3M" ordinal="12"/>
+            <column datatype="integer" name="Delinq_30D_Curr" ordinal="13"/>
+            <column datatype="integer" name="Checking_Asset" ordinal="14"/>
+            <column datatype="integer" name="Card_Inquiry_12M" ordinal="15"/>
+            <column datatype="real" name="Card_Open_24M" ordinal="16"/>
+            <column datatype="integer" name="Personal_Loan" ordinal="17"/>
+            <column datatype="real" name="Unsecured_Debt" ordinal="18"/>
+            <column datatype="real" name="Revolving_Util" ordinal="19"/>
+            <column datatype="integer" name="Income" ordinal="20"/>
+            <column datatype="integer" name="Auth_User_Only" ordinal="21"/>
+            <column datatype="integer" name="Student" ordinal="22"/>
+            <column datatype="real" name="Student_Loan_Amt" ordinal="23"/>
+            <column datatype="integer" name="Ever_ChargeOff" ordinal="24"/>
+            <column datatype="real" name="ChargeOff_Balance" ordinal="25"/>
+            <column datatype="real" name="FICO_V" ordinal="26"/>
+            <column datatype="real" name="DTI" ordinal="27"/>
+            <column datatype="integer" name="Accounts" ordinal="28"/>
+            <column datatype="string" name="FICO" ordinal="29"/>
+            <column datatype="string" name="FICO_Band" ordinal="30"/>
+            <column datatype="string" name="Utilization_Band" ordinal="31"/>
+            <column datatype="string" name="DTI_Band" ordinal="32"/>
+            <column datatype="string" name="DTI_Band_10pct" ordinal="33"/>
+            <column datatype="string" name="LoanAmount_Band" ordinal="34"/>
+            <column datatype="string" name="Asset_Band" ordinal="35"/>
+            <column datatype="integer" name="Observed_Chargeoff" ordinal="36"/>
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection="textscan.16cxogj03mzun719d1ula168m6bn" name="tableau_input.csv" table="[tableau_input#csv]" type="table">
           <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
-            <column datatype="integer" name="No_Hit" ordinal="0" />
-            <column datatype="integer" name="Age" ordinal="1" />
-            <column datatype="integer" name="Ever_Bankruptcy" ordinal="2" />
-            <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3" />
-            <column datatype="integer" name="Ever_Collection" ordinal="4" />
-            <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5" />
-            <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6" />
-            <column datatype="integer" name="Counseling_Last_12M" ordinal="7" />
-            <column datatype="integer" name="Unpaid_CO_84M" ordinal="8" />
-            <column datatype="integer" name="Delinq_90D_12M" ordinal="9" />
-            <column datatype="integer" name="Delinq_60D_12M" ordinal="10" />
-            <column datatype="integer" name="Delinq_60D_Curr" ordinal="11" />
-            <column datatype="integer" name="Delinq_30D_3M" ordinal="12" />
-            <column datatype="integer" name="Delinq_30D_Curr" ordinal="13" />
-            <column datatype="integer" name="Checking_Asset" ordinal="14" />
-            <column datatype="integer" name="Card_Inquiry_12M" ordinal="15" />
-            <column datatype="real" name="Card_Open_24M" ordinal="16" />
-            <column datatype="integer" name="Personal_Loan" ordinal="17" />
-            <column datatype="real" name="Unsecured_Debt" ordinal="18" />
-            <column datatype="real" name="Revolving_Util" ordinal="19" />
-            <column datatype="integer" name="Income" ordinal="20" />
-            <column datatype="integer" name="Auth_User_Only" ordinal="21" />
-            <column datatype="integer" name="Student" ordinal="22" />
-            <column datatype="real" name="Student_Loan_Amt" ordinal="23" />
-            <column datatype="integer" name="Ever_ChargeOff" ordinal="24" />
-            <column datatype="real" name="ChargeOff_Balance" ordinal="25" />
-            <column datatype="real" name="FICO_V" ordinal="26" />
-            <column datatype="real" name="DTI" ordinal="27" />
-            <column datatype="integer" name="Accounts" ordinal="28" />
-            <column datatype="string" name="FICO" ordinal="29" />
-            <column datatype="string" name="FICO_Band" ordinal="30" />
-            <column datatype="string" name="Utilization_Band" ordinal="31" />
-            <column datatype="string" name="DTI_Band" ordinal="32" />
-            <column datatype="string" name="DTI_Band_10pct" ordinal="33" />
-            <column datatype="string" name="LoanAmount_Band" ordinal="34" />
-            <column datatype="string" name="Asset_Band" ordinal="35" />
-            <column datatype="integer" name="Observed_Chargeoff" ordinal="36" />
+            <column datatype="integer" name="No_Hit" ordinal="0"/>
+            <column datatype="integer" name="Age" ordinal="1"/>
+            <column datatype="integer" name="Ever_Bankruptcy" ordinal="2"/>
+            <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3"/>
+            <column datatype="integer" name="Ever_Collection" ordinal="4"/>
+            <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5"/>
+            <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6"/>
+            <column datatype="integer" name="Counseling_Last_12M" ordinal="7"/>
+            <column datatype="integer" name="Unpaid_CO_84M" ordinal="8"/>
+            <column datatype="integer" name="Delinq_90D_12M" ordinal="9"/>
+            <column datatype="integer" name="Delinq_60D_12M" ordinal="10"/>
+            <column datatype="integer" name="Delinq_60D_Curr" ordinal="11"/>
+            <column datatype="integer" name="Delinq_30D_3M" ordinal="12"/>
+            <column datatype="integer" name="Delinq_30D_Curr" ordinal="13"/>
+            <column datatype="integer" name="Checking_Asset" ordinal="14"/>
+            <column datatype="integer" name="Card_Inquiry_12M" ordinal="15"/>
+            <column datatype="real" name="Card_Open_24M" ordinal="16"/>
+            <column datatype="integer" name="Personal_Loan" ordinal="17"/>
+            <column datatype="real" name="Unsecured_Debt" ordinal="18"/>
+            <column datatype="real" name="Revolving_Util" ordinal="19"/>
+            <column datatype="integer" name="Income" ordinal="20"/>
+            <column datatype="integer" name="Auth_User_Only" ordinal="21"/>
+            <column datatype="integer" name="Student" ordinal="22"/>
+            <column datatype="real" name="Student_Loan_Amt" ordinal="23"/>
+            <column datatype="integer" name="Ever_ChargeOff" ordinal="24"/>
+            <column datatype="real" name="ChargeOff_Balance" ordinal="25"/>
+            <column datatype="real" name="FICO_V" ordinal="26"/>
+            <column datatype="real" name="DTI" ordinal="27"/>
+            <column datatype="integer" name="Accounts" ordinal="28"/>
+            <column datatype="string" name="FICO" ordinal="29"/>
+            <column datatype="string" name="FICO_Band" ordinal="30"/>
+            <column datatype="string" name="Utilization_Band" ordinal="31"/>
+            <column datatype="string" name="DTI_Band" ordinal="32"/>
+            <column datatype="string" name="DTI_Band_10pct" ordinal="33"/>
+            <column datatype="string" name="LoanAmount_Band" ordinal="34"/>
+            <column datatype="string" name="Asset_Band" ordinal="35"/>
+            <column datatype="integer" name="Observed_Chargeoff" ordinal="36"/>
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
           <metadata-record class="capability">
-            <remote-name />
+            <remote-name/>
             <remote-type>0</remote-type>
             <parent-name>[tableau_input.csv]</parent-name>
-            <remote-alias />
+            <remote-alias/>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
             <attributes>
@@ -489,7 +489,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -504,7 +504,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -519,7 +519,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -534,7 +534,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -549,7 +549,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -564,7 +564,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -579,7 +579,7 @@
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag="0" name="LEN_RUS" />
+            <collation flag="0" name="LEN_RUS"/>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class="column">
@@ -596,51 +596,51 @@
           </metadata-record>
         </metadata-records>
       </connection>
-      <aliases enabled="yes" />
-      <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal" />
-      <column caption="Auth User Only" datatype="integer" name="[Auth_User_Only]" role="measure" type="quantitative" />
-      <column caption="FICO_BAND NEW" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
-        <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END" />
+      <aliases enabled="yes"/>
+      <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal"/>
+      <column caption="Auth User Only" datatype="integer" name="[Auth_User_Only]" role="measure" type="quantitative"/>
+      <column caption="FICO score band" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
+        <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END"/>
       </column>
       <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-        <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+        <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
       </column>
       <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-        <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+        <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
       </column>
-      <column caption="Card Inquiry 12M" datatype="integer" name="[Card_Inquiry_12M]" role="measure" type="quantitative" />
-      <column caption="Card Open 24M" datatype="real" name="[Card_Open_24M]" role="measure" type="quantitative" />
-      <column caption="ChargeOff Balance" datatype="real" name="[ChargeOff_Balance]" role="measure" type="quantitative" />
-      <column caption="Checking Asset" datatype="integer" name="[Checking_Asset]" role="measure" type="quantitative" />
-      <column caption="Counseling Last 12M" datatype="integer" name="[Counseling_Last_12M]" role="measure" type="quantitative" />
-      <column caption="DTI Band" datatype="string" name="[DTI_Band]" role="dimension" type="nominal" />
-      <column caption="DTI Band 10pct" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal" />
-      <column caption="Delinq 30D 3M" datatype="integer" name="[Delinq_30D_3M]" role="measure" type="quantitative" />
-      <column caption="Delinq 30D Curr" datatype="integer" name="[Delinq_30D_Curr]" role="measure" type="quantitative" />
-      <column caption="Delinq 60D 12M" datatype="integer" name="[Delinq_60D_12M]" role="measure" type="quantitative" />
-      <column caption="Delinq 60D Curr" datatype="integer" name="[Delinq_60D_Curr]" role="measure" type="quantitative" />
-      <column caption="Delinq 90D 12M" datatype="integer" name="[Delinq_90D_12M]" role="measure" type="quantitative" />
-      <column caption="Ever Bankruptcy" datatype="integer" name="[Ever_Bankruptcy]" role="measure" type="quantitative" />
-      <column caption="Ever ChargeOff" datatype="integer" name="[Ever_ChargeOff]" role="measure" type="quantitative" />
-      <column caption="Ever Collection" datatype="integer" name="[Ever_Collection]" role="measure" type="quantitative" />
-      <column caption="Fico" datatype="string" name="[FICO]" role="dimension" type="nominal" />
-      <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal" />
-      <column caption="Fico V" datatype="real" name="[FICO_V]" role="measure" type="quantitative" />
-      <column caption="LoanAmount Band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal" />
-      <column caption="Months Since Bankruptcy" datatype="integer" name="[Months_Since_Bankruptcy]" role="measure" type="quantitative" />
-      <column caption="No Hit" datatype="integer" name="[No_Hit]" role="measure" type="quantitative" />
-      <column caption="Personal Loan" datatype="integer" name="[Personal_Loan]" role="measure" type="quantitative" />
-      <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-      <column caption="Revolving Util" datatype="real" name="[Revolving_Util]" role="measure" type="quantitative" />
-      <column caption="Student Loan Amt" datatype="real" name="[Student_Loan_Amt]" role="measure" type="quantitative" />
-      <column caption="Unpaid CO 84M" datatype="integer" name="[Unpaid_CO_84M]" role="measure" type="quantitative" />
-      <column caption="Unpaid Collection Balance" datatype="integer" name="[Unpaid_Collection_Balance]" role="measure" type="quantitative" />
-      <column caption="Unpaid Collection Trades" datatype="integer" name="[Unpaid_Collection_Trades]" role="measure" type="quantitative" />
-      <column caption="Unsecured Debt" datatype="real" name="[Unsecured_Debt]" role="measure" type="quantitative" />
-      <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal" />
-      <_.fcp.ObjectModelTableType.true...column caption="tableau_input.csv" datatype="table" name="[__tableau_internal_object_id__].[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]" role="measure" type="quantitative" />
-      <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage="0.5" _.fcp.SchemaViewerObjectModel.false...measure-percentage="0.4" dim-ordering="alphabetic" measure-ordering="alphabetic" show-structure="true" />
+      <column caption="Card Inquiry 12M" datatype="integer" name="[Card_Inquiry_12M]" role="measure" type="quantitative"/>
+      <column caption="Card Open 24M" datatype="real" name="[Card_Open_24M]" role="measure" type="quantitative"/>
+      <column caption="ChargeOff Balance" datatype="real" name="[ChargeOff_Balance]" role="measure" type="quantitative"/>
+      <column caption="Checking Asset" datatype="integer" name="[Checking_Asset]" role="measure" type="quantitative"/>
+      <column caption="Counseling Last 12M" datatype="integer" name="[Counseling_Last_12M]" role="measure" type="quantitative"/>
+      <column caption="Debt / annual income band" datatype="string" name="[DTI_Band]" role="dimension" type="nominal"/>
+      <column caption="Debt / annual income band" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal"/>
+      <column caption="Delinq 30D 3M" datatype="integer" name="[Delinq_30D_3M]" role="measure" type="quantitative"/>
+      <column caption="Delinq 30D Curr" datatype="integer" name="[Delinq_30D_Curr]" role="measure" type="quantitative"/>
+      <column caption="Delinq 60D 12M" datatype="integer" name="[Delinq_60D_12M]" role="measure" type="quantitative"/>
+      <column caption="Delinq 60D Curr" datatype="integer" name="[Delinq_60D_Curr]" role="measure" type="quantitative"/>
+      <column caption="Delinq 90D 12M" datatype="integer" name="[Delinq_90D_12M]" role="measure" type="quantitative"/>
+      <column caption="Ever Bankruptcy" datatype="integer" name="[Ever_Bankruptcy]" role="measure" type="quantitative"/>
+      <column caption="Ever ChargeOff" datatype="integer" name="[Ever_ChargeOff]" role="measure" type="quantitative"/>
+      <column caption="Ever Collection" datatype="integer" name="[Ever_Collection]" role="measure" type="quantitative"/>
+      <column caption="Fico" datatype="string" name="[FICO]" role="dimension" type="nominal"/>
+      <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal"/>
+      <column caption="Fico V" datatype="real" name="[FICO_V]" role="measure" type="quantitative"/>
+      <column caption="Student loan balance band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal"/>
+      <column caption="Months Since Bankruptcy" datatype="integer" name="[Months_Since_Bankruptcy]" role="measure" type="quantitative"/>
+      <column caption="No Hit" datatype="integer" name="[No_Hit]" role="measure" type="quantitative"/>
+      <column caption="Personal Loan" datatype="integer" name="[Personal_Loan]" role="measure" type="quantitative"/>
+      <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+      <column caption="Revolving Util" datatype="real" name="[Revolving_Util]" role="measure" type="quantitative"/>
+      <column caption="Student Loan Amt" datatype="real" name="[Student_Loan_Amt]" role="measure" type="quantitative"/>
+      <column caption="Unpaid CO 84M" datatype="integer" name="[Unpaid_CO_84M]" role="measure" type="quantitative"/>
+      <column caption="Unpaid Collection Balance" datatype="integer" name="[Unpaid_Collection_Balance]" role="measure" type="quantitative"/>
+      <column caption="Unpaid Collection Trades" datatype="integer" name="[Unpaid_Collection_Trades]" role="measure" type="quantitative"/>
+      <column caption="Unsecured Debt" datatype="real" name="[Unsecured_Debt]" role="measure" type="quantitative"/>
+      <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal"/>
+      <_.fcp.ObjectModelTableType.true...column caption="tableau_input.csv" datatype="table" name="[__tableau_internal_object_id__].[tableau_input.csv_825F8AE15DF44D10ADBEDE4916593625]" role="measure" type="quantitative"/>
+      <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage="0.5" _.fcp.SchemaViewerObjectModel.false...measure-percentage="0.4" dim-ordering="alphabetic" measure-ordering="alphabetic" show-structure="true"/>
       <style>
         <style-rule element="mark">
           <encoding attr="color" field="[usr:Calculation_42221264210087938:nk]" type="palette">
@@ -654,7 +654,7 @@
         </style-rule>
       </style>
       <semantic-values>
-        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;" />
+        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;"/>
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
@@ -662,43 +662,43 @@
             <properties context="">
               <relation connection="textscan.16cxogj03mzun719d1ula168m6bn" name="tableau_input.csv" table="[tableau_input#csv]" type="table">
                 <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
-                  <column datatype="integer" name="No_Hit" ordinal="0" />
-                  <column datatype="integer" name="Age" ordinal="1" />
-                  <column datatype="integer" name="Ever_Bankruptcy" ordinal="2" />
-                  <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3" />
-                  <column datatype="integer" name="Ever_Collection" ordinal="4" />
-                  <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5" />
-                  <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6" />
-                  <column datatype="integer" name="Counseling_Last_12M" ordinal="7" />
-                  <column datatype="integer" name="Unpaid_CO_84M" ordinal="8" />
-                  <column datatype="integer" name="Delinq_90D_12M" ordinal="9" />
-                  <column datatype="integer" name="Delinq_60D_12M" ordinal="10" />
-                  <column datatype="integer" name="Delinq_60D_Curr" ordinal="11" />
-                  <column datatype="integer" name="Delinq_30D_3M" ordinal="12" />
-                  <column datatype="integer" name="Delinq_30D_Curr" ordinal="13" />
-                  <column datatype="integer" name="Checking_Asset" ordinal="14" />
-                  <column datatype="integer" name="Card_Inquiry_12M" ordinal="15" />
-                  <column datatype="real" name="Card_Open_24M" ordinal="16" />
-                  <column datatype="integer" name="Personal_Loan" ordinal="17" />
-                  <column datatype="real" name="Unsecured_Debt" ordinal="18" />
-                  <column datatype="real" name="Revolving_Util" ordinal="19" />
-                  <column datatype="integer" name="Income" ordinal="20" />
-                  <column datatype="integer" name="Auth_User_Only" ordinal="21" />
-                  <column datatype="integer" name="Student" ordinal="22" />
-                  <column datatype="real" name="Student_Loan_Amt" ordinal="23" />
-                  <column datatype="integer" name="Ever_ChargeOff" ordinal="24" />
-                  <column datatype="real" name="ChargeOff_Balance" ordinal="25" />
-                  <column datatype="real" name="FICO_V" ordinal="26" />
-                  <column datatype="real" name="DTI" ordinal="27" />
-                  <column datatype="integer" name="Accounts" ordinal="28" />
-                  <column datatype="string" name="FICO" ordinal="29" />
-                  <column datatype="string" name="FICO_Band" ordinal="30" />
-                  <column datatype="string" name="Utilization_Band" ordinal="31" />
-                  <column datatype="string" name="DTI_Band" ordinal="32" />
-                  <column datatype="string" name="DTI_Band_10pct" ordinal="33" />
-                  <column datatype="string" name="LoanAmount_Band" ordinal="34" />
-                  <column datatype="string" name="Asset_Band" ordinal="35" />
-                  <column datatype="integer" name="Observed_Chargeoff" ordinal="36" />
+                  <column datatype="integer" name="No_Hit" ordinal="0"/>
+                  <column datatype="integer" name="Age" ordinal="1"/>
+                  <column datatype="integer" name="Ever_Bankruptcy" ordinal="2"/>
+                  <column datatype="integer" name="Months_Since_Bankruptcy" ordinal="3"/>
+                  <column datatype="integer" name="Ever_Collection" ordinal="4"/>
+                  <column datatype="integer" name="Unpaid_Collection_Trades" ordinal="5"/>
+                  <column datatype="integer" name="Unpaid_Collection_Balance" ordinal="6"/>
+                  <column datatype="integer" name="Counseling_Last_12M" ordinal="7"/>
+                  <column datatype="integer" name="Unpaid_CO_84M" ordinal="8"/>
+                  <column datatype="integer" name="Delinq_90D_12M" ordinal="9"/>
+                  <column datatype="integer" name="Delinq_60D_12M" ordinal="10"/>
+                  <column datatype="integer" name="Delinq_60D_Curr" ordinal="11"/>
+                  <column datatype="integer" name="Delinq_30D_3M" ordinal="12"/>
+                  <column datatype="integer" name="Delinq_30D_Curr" ordinal="13"/>
+                  <column datatype="integer" name="Checking_Asset" ordinal="14"/>
+                  <column datatype="integer" name="Card_Inquiry_12M" ordinal="15"/>
+                  <column datatype="real" name="Card_Open_24M" ordinal="16"/>
+                  <column datatype="integer" name="Personal_Loan" ordinal="17"/>
+                  <column datatype="real" name="Unsecured_Debt" ordinal="18"/>
+                  <column datatype="real" name="Revolving_Util" ordinal="19"/>
+                  <column datatype="integer" name="Income" ordinal="20"/>
+                  <column datatype="integer" name="Auth_User_Only" ordinal="21"/>
+                  <column datatype="integer" name="Student" ordinal="22"/>
+                  <column datatype="real" name="Student_Loan_Amt" ordinal="23"/>
+                  <column datatype="integer" name="Ever_ChargeOff" ordinal="24"/>
+                  <column datatype="real" name="ChargeOff_Balance" ordinal="25"/>
+                  <column datatype="real" name="FICO_V" ordinal="26"/>
+                  <column datatype="real" name="DTI" ordinal="27"/>
+                  <column datatype="integer" name="Accounts" ordinal="28"/>
+                  <column datatype="string" name="FICO" ordinal="29"/>
+                  <column datatype="string" name="FICO_Band" ordinal="30"/>
+                  <column datatype="string" name="Utilization_Band" ordinal="31"/>
+                  <column datatype="string" name="DTI_Band" ordinal="32"/>
+                  <column datatype="string" name="DTI_Band_10pct" ordinal="33"/>
+                  <column datatype="string" name="LoanAmount_Band" ordinal="34"/>
+                  <column datatype="string" name="Asset_Band" ordinal="35"/>
+                  <column datatype="integer" name="Observed_Chargeoff" ordinal="36"/>
                 </columns>
               </relation>
             </properties>
@@ -720,70 +720,59 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal" />
-            <column caption="FICO_BAND NEW" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
-              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal"/>
+            <column caption="FICO score band" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END"/>
             </column>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;500"</bucket>
-              <bucket>"501-1000"</bucket>
-              <bucket>"1001-1500"</bucket>
-              <bucket>"1501-2000"</bucket>
-              <bucket>"2001-2500"</bucket>
-              <bucket>"&gt;2500"</bucket>
-            </dictionary>
+              <bucket>"&lt;500"</bucket><bucket>"500–&lt;1000"</bucket><bucket>"1000–&lt;1500"</bucket><bucket>"1500–&lt;2000"</bucket><bucket>"2000–&lt;2500"</bucket><bucket>"≥2500"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;520"</bucket>
-              <bucket>"520–569"</bucket>
-              <bucket>"570–599"</bucket>
-              <bucket>"600–639"</bucket>
-              <bucket>"640+"</bucket>
-            </dictionary>
+              <bucket>"&lt;520"</bucket><bucket>"520–569"</bucket><bucket>"570–599"</bucket><bucket>"600–639"</bucket><bucket>"640+"</bucket><bucket>"No score"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="89" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="89"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -791,13 +780,13 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]</cols>
       </table>
-      <simple-id uuid="{832077D0-0599-4FBC-B3C6-D331CEE95E2A}" />
+      <simple-id uuid="{832077D0-0599-4FBC-B3C6-D331CEE95E2A}"/>
     </worksheet>
     <worksheet name="Sheet 2">
       <layout-options>
         <title>
           <formatted-text>
-            <run>FICO X DTI
+            <run>FICO X DEBT / ANNUAL INCOME
 </run>
           </formatted-text>
         </title>
@@ -805,69 +794,59 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="FICO_BAND NEW" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
-              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="FICO score band" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END"/>
             </column>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="DTI Band 10pct" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal" />
-            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal" />
-            <column-instance column="[DTI_Band_10pct]" derivation="None" name="[none:DTI_Band_10pct:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="Debt / annual income band" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal"/>
+            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[DTI_Band_10pct]" derivation="None" name="[none:DTI_Band_10pct:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;520"</bucket>
-              <bucket>"520–569"</bucket>
-              <bucket>"570–599"</bucket>
-              <bucket>"600–639"</bucket>
-              <bucket>"640+"</bucket>
-            </dictionary>
+              <bucket>"&lt;520"</bucket><bucket>"520–569"</bucket><bucket>"570–599"</bucket><bucket>"600–639"</bucket><bucket>"640+"</bucket><bucket>"No score"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:DTI_Band_10pct:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;1\%"</bucket>
-              <bucket>"1–3\%"</bucket>
-              <bucket>"3–5\%"</bucket>
-              <bucket>"5–7\%"</bucket>
-              <bucket>"7–10\%"</bucket>
-            </dictionary>
+              <bucket>"&lt;1%"</bucket><bucket>"1–&lt;3%"</bucket><bucket>"3–&lt;5%"</bucket><bucket>"5–&lt;7%"</bucket><bucket>"7–&lt;10%"</bucket><bucket>"≥10%"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="76" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="76"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -875,7 +854,7 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:DTI_Band_10pct:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]</cols>
       </table>
-      <simple-id uuid="{0571B5C5-B885-433E-A580-0494E922C799}" />
+      <simple-id uuid="{0571B5C5-B885-433E-A580-0494E922C799}"/>
     </worksheet>
     <worksheet name="Sheet 3">
       <layout-options>
@@ -889,68 +868,59 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="FICO_BAND NEW" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
-              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="FICO score band" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END"/>
             </column>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal" />
-            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Utilization_Band]" derivation="None" name="[none:Utilization_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal"/>
+            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Utilization_Band]" derivation="None" name="[none:Utilization_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;520"</bucket>
-              <bucket>"520–569"</bucket>
-              <bucket>"570–599"</bucket>
-              <bucket>"600–639"</bucket>
-              <bucket>"640+"</bucket>
-            </dictionary>
+              <bucket>"&lt;520"</bucket><bucket>"520–569"</bucket><bucket>"570–599"</bucket><bucket>"600–639"</bucket><bucket>"640+"</bucket><bucket>"No score"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Utilization_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"Very Low (&lt;10\%)"</bucket>
-              <bucket>"Low (10-30\%)"</bucket>
-              <bucket>"Moderate (30-60\%)"</bucket>
-              <bucket>"High (60-100\%)"</bucket>
-            </dictionary>
+              <bucket>"&lt;10%"</bucket><bucket>"10–&lt;30%"</bucket><bucket>"30–&lt;60%"</bucket><bucket>"60–&lt;100%"</bucket><bucket>"≥100%"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="82" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="82"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -958,13 +928,13 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Utilization_Band:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]</cols>
       </table>
-      <simple-id uuid="{72E73068-D078-469B-B570-8DFF9A3D356E}" />
+      <simple-id uuid="{72E73068-D078-469B-B570-8DFF9A3D356E}"/>
     </worksheet>
     <worksheet name="Sheet 4">
       <layout-options>
         <title>
           <formatted-text>
-            <run>FICO X LOAN AMOUNT
+            <run>FICO X STUDENT LOAN BALANCE
 </run>
           </formatted-text>
         </title>
@@ -972,69 +942,59 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="FICO_BAND NEW" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
-              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="FICO score band" datatype="string" name="[Calculation_42221264209014784]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF ISNULL([FICO_V]) THEN &quot;No score&quot;&#10;ELSEIF [FICO_V] &lt; 520 THEN &quot;&lt;520&quot;&#10;ELSEIF [FICO_V] &lt; 570 THEN &quot;520–569&quot;&#10;ELSEIF [FICO_V] &lt; 600 THEN &quot;570–599&quot;&#10;ELSEIF [FICO_V] &lt; 640 THEN &quot;600–639&quot;&#10;ELSE &quot;640+&quot; END"/>
             </column>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal" />
-            <column caption="LoanAmount Band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal" />
-            <column-instance column="[LoanAmount_Band]" derivation="None" name="[none:LoanAmount_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="FICO Band" datatype="string" name="[FICO_Band]" role="dimension" type="nominal"/>
+            <column caption="Student loan balance band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column-instance column="[Calculation_42221264209014784]" derivation="None" name="[none:Calculation_42221264209014784:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[LoanAmount_Band]" derivation="None" name="[none:LoanAmount_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;520"</bucket>
-              <bucket>"520–569"</bucket>
-              <bucket>"570–599"</bucket>
-              <bucket>"600–639"</bucket>
-              <bucket>"640+"</bucket>
-            </dictionary>
+              <bucket>"&lt;520"</bucket><bucket>"520–569"</bucket><bucket>"570–599"</bucket><bucket>"600–639"</bucket><bucket>"640+"</bucket><bucket>"No score"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:LoanAmount_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"No debt"</bucket>
-              <bucket>"Low (1K–5K)"</bucket>
-              <bucket>"Moderate (5K–10K)"</bucket>
-              <bucket>"High (10K–15K)"</bucket>
-              <bucket>"Very High (&gt;15K)"</bucket>
-            </dictionary>
+              <bucket>"&lt;1"</bucket><bucket>"1–&lt;1K"</bucket><bucket>"1K–&lt;5K"</bucket><bucket>"5K–&lt;10K"</bucket><bucket>"10K–&lt;15K"</bucket><bucket>"≥15K"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="87" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]" value="87"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -1042,80 +1002,69 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:LoanAmount_Band:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Calculation_42221264209014784:nk]</cols>
       </table>
-      <simple-id uuid="{F008F539-EF49-4801-A6BB-A84A8F2CC342}" />
+      <simple-id uuid="{F008F539-EF49-4801-A6BB-A84A8F2CC342}"/>
     </worksheet>
     <worksheet name="Sheet 5">
       <layout-options>
         <title>
           <formatted-text>
-            <run>ASSET X DTI</run>
+            <run>ASSET X DEBT / ANNUAL INCOME</run>
           </formatted-text>
         </title>
       </layout-options>
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal"/>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="DTI Band 10pct" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[DTI_Band_10pct]" derivation="None" name="[none:DTI_Band_10pct:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="Debt / annual income band" datatype="string" name="[DTI_Band_10pct]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[DTI_Band_10pct]" derivation="None" name="[none:DTI_Band_10pct:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;500"</bucket>
-              <bucket>"501-1000"</bucket>
-              <bucket>"1001-1500"</bucket>
-              <bucket>"1501-2000"</bucket>
-              <bucket>"2001-2500"</bucket>
-              <bucket>"&gt;2500"</bucket>
-            </dictionary>
+              <bucket>"&lt;500"</bucket><bucket>"500–&lt;1000"</bucket><bucket>"1000–&lt;1500"</bucket><bucket>"1500–&lt;2000"</bucket><bucket>"2000–&lt;2500"</bucket><bucket>"≥2500"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:DTI_Band_10pct:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;1\%"</bucket>
-              <bucket>"1–3\%"</bucket>
-              <bucket>"3–5\%"</bucket>
-              <bucket>"5–7\%"</bucket>
-              <bucket>"7–10\%"</bucket>
-            </dictionary>
+              <bucket>"&lt;1%"</bucket><bucket>"1–&lt;3%"</bucket><bucket>"3–&lt;5%"</bucket><bucket>"5–&lt;7%"</bucket><bucket>"7–&lt;10%"</bucket><bucket>"≥10%"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="75" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="75"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -1123,13 +1072,13 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:DTI_Band_10pct:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]</cols>
       </table>
-      <simple-id uuid="{46D314E2-4325-4FDF-96EE-AFD5F85D59B3}" />
+      <simple-id uuid="{46D314E2-4325-4FDF-96EE-AFD5F85D59B3}"/>
     </worksheet>
     <worksheet name="Sheet 6">
       <layout-options>
         <title>
           <formatted-text>
-            <run>ASSET X LOAN AMOUNT
+            <run>ASSET X STUDENT LOAN BALANCE
 </run>
           </formatted-text>
         </title>
@@ -1137,67 +1086,56 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal"/>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="LoanAmount Band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal" />
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[LoanAmount_Band]" derivation="None" name="[none:LoanAmount_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="Student loan balance band" datatype="string" name="[LoanAmount_Band]" role="dimension" type="nominal"/>
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[LoanAmount_Band]" derivation="None" name="[none:LoanAmount_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;500"</bucket>
-              <bucket>"501-1000"</bucket>
-              <bucket>"1001-1500"</bucket>
-              <bucket>"1501-2000"</bucket>
-              <bucket>"2001-2500"</bucket>
-              <bucket>"&gt;2500"</bucket>
-            </dictionary>
+              <bucket>"&lt;500"</bucket><bucket>"500–&lt;1000"</bucket><bucket>"1000–&lt;1500"</bucket><bucket>"1500–&lt;2000"</bucket><bucket>"2000–&lt;2500"</bucket><bucket>"≥2500"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:LoanAmount_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"No debt"</bucket>
-              <bucket>"Low (1K–5K)"</bucket>
-              <bucket>"Moderate (5K–10K)"</bucket>
-              <bucket>"High (10K–15K)"</bucket>
-              <bucket>"Very High (&gt;15K)"</bucket>
-            </dictionary>
+              <bucket>"&lt;1"</bucket><bucket>"1–&lt;1K"</bucket><bucket>"1K–&lt;5K"</bucket><bucket>"5K–&lt;10K"</bucket><bucket>"10K–&lt;15K"</bucket><bucket>"≥15K"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="81" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="81"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -1205,7 +1143,7 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:LoanAmount_Band:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]</cols>
       </table>
-      <simple-id uuid="{80288D84-7974-4C76-BE87-5765D0FDBB79}" />
+      <simple-id uuid="{80288D84-7974-4C76-BE87-5765D0FDBB79}"/>
     </worksheet>
     <worksheet name="Sheet 7">
       <layout-options>
@@ -1219,66 +1157,56 @@
       <table>
         <view>
           <datasources>
-            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu" />
+            <datasource caption="NTC_Consumer_Credit_Data" name="federated.1joxdpd0cp2m3u19vmn9b18teegu"/>
           </datasources>
           <datasource-dependencies datasource="federated.1joxdpd0cp2m3u19vmn9b18teegu">
-            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative" />
-            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Accounts]" role="measure" type="quantitative"/>
+            <column caption="Asset Band" datatype="string" name="[Asset_Band]" role="dimension" type="nominal"/>
             <column caption="Observed charge-off share" datatype="real" default-format="p0.00%" name="[Calculation_42221264209735681]" role="measure" type="quantitative">
-              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END" />
+              <calculation class="tableau" formula="IF SUM([Accounts]) &gt; 0 THEN SUM([Observed_Chargeoff]) / SUM([Accounts]) END"/>
             </column>
             <column caption="Illustrative 20% observed-share comparison" datatype="string" name="[Calculation_42221264210087938]" role="measure" type="nominal">
-              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END" />
+              <calculation class="tableau" formula="IF [Calculation_42221264209735681] &gt;= 0.2 THEN &quot;Observed share ≥20% (illustrative)&quot; ELSE &quot;Observed share &lt;20% (illustrative)&quot; END"/>
             </column>
-            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative" />
-            <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal" />
-            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Utilization_Band]" derivation="None" name="[none:Utilization_Band:nk]" pivot="key" type="nominal" />
-            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative" />
-            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal" />
+            <column caption="Observed Charge-off Indicator" datatype="integer" name="[Observed_Chargeoff]" role="measure" type="quantitative"/>
+            <column caption="Utilization Band" datatype="string" name="[Utilization_Band]" role="dimension" type="nominal"/>
+            <column-instance column="[Asset_Band]" derivation="None" name="[none:Asset_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Utilization_Band]" derivation="None" name="[none:Utilization_Band:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_42221264209735681]" derivation="User" name="[usr:Calculation_42221264209735681:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_42221264210087938]" derivation="User" name="[usr:Calculation_42221264210087938:nk]" pivot="key" type="nominal"/>
           </datasource-dependencies>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"&lt;500"</bucket>
-              <bucket>"501-1000"</bucket>
-              <bucket>"1001-1500"</bucket>
-              <bucket>"1501-2000"</bucket>
-              <bucket>"2001-2500"</bucket>
-              <bucket>"&gt;2500"</bucket>
-            </dictionary>
+              <bucket>"&lt;500"</bucket><bucket>"500–&lt;1000"</bucket><bucket>"1000–&lt;1500"</bucket><bucket>"1500–&lt;2000"</bucket><bucket>"2000–&lt;2500"</bucket><bucket>"≥2500"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
           <manual-sort column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Utilization_Band:nk]" direction="ASC">
             <dictionary>
-              <bucket>"Very Low (&lt;10\%)"</bucket>
-              <bucket>"Low (10-30\%)"</bucket>
-              <bucket>"Moderate (30-60\%)"</bucket>
-              <bucket>"High (60-100\%)"</bucket>
-            </dictionary>
+              <bucket>"&lt;10%"</bucket><bucket>"10–&lt;30%"</bucket><bucket>"30–&lt;60%"</bucket><bucket>"60–&lt;100%"</bucket><bucket>"≥100%"</bucket><bucket>"Unknown"</bucket></dictionary>
           </manual-sort>
-          <aggregation value="true" />
+          <aggregation value="true"/>
         </view>
         <style>
           <style-rule element="cell">
-            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="74" />
+            <format attr="width" field="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]" value="74"/>
           </style-rule>
         </style>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
             <encodings>
-              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]" />
-              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" />
+              <text column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264209735681:qk]"/>
+              <color column="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]"/>
             </encodings>
             <style>
               <style-rule element="mark">
-                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-show" value="true"/>
               </style-rule>
               <style-rule element="pane">
-                <format attr="minwidth" value="-1" />
-                <format attr="maxwidth" value="-1" />
+                <format attr="minwidth" value="-1"/>
+                <format attr="maxwidth" value="-1"/>
               </style-rule>
             </style>
           </pane>
@@ -1286,121 +1214,121 @@
         <rows total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Utilization_Band:nk]</rows>
         <cols total="true">[federated.1joxdpd0cp2m3u19vmn9b18teegu].[none:Asset_Band:nk]</cols>
       </table>
-      <simple-id uuid="{B44B27E0-2F10-4391-8838-6946B1F719AE}" />
+      <simple-id uuid="{B44B27E0-2F10-4391-8838-6946B1F719AE}"/>
     </worksheet>
     <worksheet name="Sheet 8">
       <table>
         <view>
-          <datasources />
-          <aggregation value="true" />
+          <datasources/>
+          <aggregation value="true"/>
         </view>
-        <style />
+        <style/>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
           </pane>
         </panes>
-        <rows />
-        <cols />
+        <rows/>
+        <cols/>
       </table>
-      <simple-id uuid="{6569E027-7CD0-4E46-B330-9A24B07E31FF}" />
+      <simple-id uuid="{6569E027-7CD0-4E46-B330-9A24B07E31FF}"/>
     </worksheet>
     <worksheet name="Sheet 9">
       <table>
         <view>
-          <datasources />
-          <aggregation value="true" />
+          <datasources/>
+          <aggregation value="true"/>
         </view>
-        <style />
+        <style/>
         <panes>
           <pane selection-relaxation-option="selection-relaxation-allow">
             <view>
-              <breakdown value="auto" />
+              <breakdown value="auto"/>
             </view>
-            <mark class="Automatic" />
+            <mark class="Automatic"/>
           </pane>
         </panes>
-        <rows />
-        <cols />
+        <rows/>
+        <cols/>
       </table>
-      <simple-id uuid="{958681F7-141B-42B1-B152-BFA3648EB5C3}" />
+      <simple-id uuid="{958681F7-141B-42B1-B152-BFA3648EB5C3}"/>
     </worksheet>
   </worksheets>
   <dashboards>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder="true" name="Dashboard 1">
-      <style />
-      <size maxheight="300" maxwidth="800" minheight="300" minwidth="800" sizing-mode="fixed" />
+      <style/>
+      <size maxheight="300" maxwidth="800" minheight="300" minwidth="800" sizing-mode="fixed"/>
       <zones>
         <zone h="100000" id="4" type-v2="layout-basic" w="100000" x="0" y="0">
           <zone h="94666" id="8" param="horz" type-v2="layout-flow" w="98000" x="1000" y="2667">
             <zone h="94666" id="6" type-v2="layout-basic" w="82000" x="1000" y="2667">
               <zone h="94666" id="5" name="Sheet 6" w="82000" x="1000" y="2667">
                 <zone-style>
-                  <format attr="border-color" value="#000000" />
-                  <format attr="border-style" value="none" />
-                  <format attr="border-width" value="0" />
-                  <format attr="margin" value="4" />
+                  <format attr="border-color" value="#000000"/>
+                  <format attr="border-style" value="none"/>
+                  <format attr="border-width" value="0"/>
+                  <format attr="margin" value="4"/>
                 </zone-style>
               </zone>
             </zone>
             <zone fixed-size="128" h="94666" id="7" is-fixed="true" param="vert" type-v2="layout-flow" w="16000" x="83000" y="2667">
               <zone h="22000" id="9" name="Sheet 6" pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type-v2="color" w="16000" x="83000" y="2667">
                 <zone-style>
-                  <format attr="border-color" value="#000000" />
-                  <format attr="border-style" value="none" />
-                  <format attr="border-width" value="0" />
-                  <format attr="margin" value="4" />
+                  <format attr="border-color" value="#000000"/>
+                  <format attr="border-style" value="none"/>
+                  <format attr="border-width" value="0"/>
+                  <format attr="margin" value="4"/>
                 </zone-style>
               </zone>
             </zone>
           </zone>
           <zone-style>
-            <format attr="border-color" value="#000000" />
-            <format attr="border-style" value="none" />
-            <format attr="border-width" value="0" />
-            <format attr="margin" value="8" />
+            <format attr="border-color" value="#000000"/>
+            <format attr="border-style" value="none"/>
+            <format attr="border-width" value="0"/>
+            <format attr="margin" value="8"/>
           </zone-style>
         </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated="true" name="Phone">
-          <size maxheight="700" minheight="700" sizing-mode="vscroll" />
+          <size maxheight="700" minheight="700" sizing-mode="vscroll"/>
           <zones>
             <zone h="100000" id="11" type-v2="layout-basic" w="100000" x="0" y="0">
               <zone h="94666" id="10" param="vert" type-v2="layout-flow" w="98000" x="1000" y="2667">
                 <zone fixed-size="276" h="94666" id="5" is-fixed="true" name="Sheet 6" w="82000" x="1000" y="2667">
                   <zone-style>
-                    <format attr="border-color" value="#000000" />
-                    <format attr="border-style" value="none" />
-                    <format attr="border-width" value="0" />
-                    <format attr="margin" value="4" />
-                    <format attr="padding" value="0" />
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
                   </zone-style>
                 </zone>
                 <zone h="22000" id="9" name="Sheet 6" pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type-v2="color" w="16000" x="83000" y="2667">
                   <zone-style>
-                    <format attr="border-color" value="#000000" />
-                    <format attr="border-style" value="none" />
-                    <format attr="border-width" value="0" />
-                    <format attr="margin" value="4" />
-                    <format attr="padding" value="0" />
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
                   </zone-style>
                 </zone>
               </zone>
               <zone-style>
-                <format attr="border-color" value="#000000" />
-                <format attr="border-style" value="none" />
-                <format attr="border-width" value="0" />
-                <format attr="margin" value="8" />
+                <format attr="border-color" value="#000000"/>
+                <format attr="border-style" value="none"/>
+                <format attr="border-width" value="0"/>
+                <format attr="margin" value="8"/>
               </zone-style>
             </zone>
           </zones>
         </devicelayout>
       </devicelayouts>
-      <simple-id uuid="{191A2284-3799-43DC-BE87-451CDF55ADDF}" />
+      <simple-id uuid="{191A2284-3799-43DC-BE87-451CDF55ADDF}"/>
     </dashboard>
   </dashboards>
   <windows source-height="30">
@@ -1408,25 +1336,25 @@
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1439,31 +1367,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{ED3748A5-7249-4E1B-97D4-759441894862}" />
+      <simple-id uuid="{ED3748A5-7249-4E1B-97D4-759441894862}"/>
     </window>
     <window class="worksheet" name="Sheet 2">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1477,31 +1405,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{44B30377-B959-4933-81D1-3F9A4D76E33B}" />
+      <simple-id uuid="{44B30377-B959-4933-81D1-3F9A4D76E33B}"/>
     </window>
     <window class="worksheet" name="Sheet 3">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1514,31 +1442,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{09F4394A-D911-448B-BB04-BB3A4A756EB3}" />
+      <simple-id uuid="{09F4394A-D911-448B-BB04-BB3A4A756EB3}"/>
     </window>
     <window class="worksheet" name="Sheet 4">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1551,31 +1479,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{C7DD46E7-2F1E-4A86-88BF-BAF327038D02}" />
+      <simple-id uuid="{C7DD46E7-2F1E-4A86-88BF-BAF327038D02}"/>
     </window>
     <window class="worksheet" name="Sheet 5">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1588,31 +1516,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{5056CA68-86CF-4283-BB9D-2D820343A1C0}" />
+      <simple-id uuid="{5056CA68-86CF-4283-BB9D-2D820343A1C0}"/>
     </window>
     <window class="worksheet" name="Sheet 6">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1625,31 +1553,31 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{6C31C25A-65E4-4652-8BA0-5CEA7562EFB3}" />
+      <simple-id uuid="{6C31C25A-65E4-4652-8BA0-5CEA7562EFB3}"/>
     </window>
     <window class="worksheet" name="Sheet 7">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
         <edge name="right">
           <strip size="160">
-            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color" />
+            <card pane-specification-id="0" param="[federated.1joxdpd0cp2m3u19vmn9b18teegu].[usr:Calculation_42221264210087938:nk]" type="color"/>
           </strip>
         </edge>
       </cards>
@@ -1662,53 +1590,53 @@
           </color-one-way>
         </highlight>
       </viewpoint>
-      <simple-id uuid="{589DB2FD-AC33-4F12-BF3F-7C485A259323}" />
+      <simple-id uuid="{589DB2FD-AC33-4F12-BF3F-7C485A259323}"/>
     </window>
     <window class="worksheet" maximized="true" name="Sheet 8">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
       </cards>
-      <simple-id uuid="{63B92B43-B479-403E-8BCF-6DDAEA5E7F77}" />
+      <simple-id uuid="{63B92B43-B479-403E-8BCF-6DDAEA5E7F77}"/>
     </window>
     <window class="worksheet" name="Sheet 9">
       <cards>
         <edge name="left">
           <strip size="160">
-            <card type="pages" />
-            <card type="filters" />
-            <card type="marks" />
+            <card type="pages"/>
+            <card type="filters"/>
+            <card type="marks"/>
           </strip>
         </edge>
         <edge name="top">
           <strip size="2147483647">
-            <card type="columns" />
+            <card type="columns"/>
           </strip>
           <strip size="2147483647">
-            <card type="rows" />
+            <card type="rows"/>
           </strip>
           <strip size="31">
-            <card type="title" />
+            <card type="title"/>
           </strip>
         </edge>
       </cards>
-      <simple-id uuid="{28978E76-21C4-4191-9C2F-8D44DA92A637}" />
+      <simple-id uuid="{28978E76-21C4-4191-9C2F-8D44DA92A637}"/>
     </window>
     <window class="dashboard" name="Dashboard 1">
       <viewpoints>
@@ -1720,8 +1648,8 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id="-1" />
-      <simple-id uuid="{466FEFB4-0F71-4895-A5A4-D99E3F313576}" />
+      <active id="-1"/>
+      <simple-id uuid="{466FEFB4-0F71-4895-A5A4-D99E3F313576}"/>
     </window>
   </windows>
 </workbook>
