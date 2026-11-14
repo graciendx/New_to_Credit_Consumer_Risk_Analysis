@@ -95,7 +95,7 @@ After the analysis command, open [`tableau/NTC.twb`](tableau/NTC.twb) in Tableau
 
 ## Authorship and source
 
-This is a reviewed publication of the **joint project by Chloe Pham and Grace Ngo**. The [original shared repository](https://github.com/chloephammi/New-To-Credit-Consumer) is preserved upstream. The current publication adds a self-contained runtime, explicit feature policy, controlled model selection, original-data reports and automated verification.
+This is a reviewed publication of the **joint project by Chloe Pham and Grace Ngo**. The current publication adds a self-contained runtime, explicit feature policy, controlled model selection, original-data reports and automated verification.
 
 [Source map](docs/original_project.md) · [Data provenance](data/README.md) · [Verification record](docs/verification.md)
 
