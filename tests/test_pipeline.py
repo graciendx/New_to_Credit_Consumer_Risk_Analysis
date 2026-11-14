@@ -144,5 +144,23 @@ class EvaluationTests(unittest.TestCase):
                 verify(expected, changed)
 
 
+    def test_tableau_manual_sort_uses_current_reporting_bands(self):
+        import xml.etree.ElementTree as ET
+        workbook = ET.parse(Path(__file__).parents[1] / 'tableau/NTC.twb')
+        exported = tableau_export(self.frame)
+        expected_fico = {'<520', '520–569', '570–599', '600–639', '640+', 'No score'}
+        for ordering in workbook.findall('.//manual-sort'):
+            field = ordering.get('column').split('[none:')[1].split(':')[0]
+            labels = {bucket.text.strip('"') for bucket in ordering.findall('./dictionary/bucket')}
+            if field == 'Calculation_42221264209014784':
+                self.assertEqual(labels, expected_fico)
+            else:
+                self.assertTrue(set(exported[field]) <= labels, field)
+                self.assertIn('Unknown', labels)
+        for run in workbook.findall('.//formatted-text/run'):
+            self.assertNotIn('DTI', run.text or '')
+            self.assertNotIn('LOAN AMOUNT', run.text or '')
+
+
 if __name__=='__main__':
     unittest.main()
